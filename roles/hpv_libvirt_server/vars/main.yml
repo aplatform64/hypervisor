@@ -24,7 +24,7 @@ hpv_libvirt_server_os_family: "
   -%}
     {{ 'Ubuntu' }}
   {%- else -%}
-    {{ 'Linux' }}
+    {{ 'NotSupported' }}
   {%- endif -%}
   "
 
