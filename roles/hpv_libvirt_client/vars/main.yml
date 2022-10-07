@@ -14,7 +14,7 @@ hpv_libvirt_client_platforms:
   - "Debian10"
   - "Debian11"
 
-hpv_libvirt_client_os_family: "
+hpv_libvirt_client_os_family: |
   {%- if
       ( ansible_distribution == 'CentOS' ) or
       ( ansible_distribution == 'RedHat' ) or
@@ -32,6 +32,5 @@ hpv_libvirt_client_os_family: "
   {%- else -%}
     {{ 'NotSupported' }}
   {%- endif -%}
-  "
 
 ...
