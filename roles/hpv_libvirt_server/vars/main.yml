@@ -17,7 +17,7 @@ hpv_libvirt_server_platforms:
   - "Debian11"
 
 # Group Linux Distributions by family
-hpv_libvirt_server_os_family: |
+hpv_libvirt_server_os_family: >-
   {%- if
       ( ansible_distribution == 'CentOS' ) or
       ( ansible_distribution == 'RedHat' ) or
