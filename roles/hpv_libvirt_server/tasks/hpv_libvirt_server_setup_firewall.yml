@@ -9,5 +9,5 @@
         port: "{{ hpv_libvirt_server_server_options['tcp_access']['port'] }}/tcp"
         allow: "{{ hpv_libvirt_server_server_options['tcp_access']['enabled'] }}"
   ansible.builtin.include_role:
-    name: "serdigital64.sec.sec_firewall_os"
+    name: "serdigital64.security.sec_firewall_os"
 ...

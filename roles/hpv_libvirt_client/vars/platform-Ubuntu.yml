@@ -9,6 +9,7 @@ hpv_libvirt_client_profiles:
       latest:
         packages:
           - name: "libvirt-client"
+          - name: "virt-manager"
   dev:
     distro:
       latest:
