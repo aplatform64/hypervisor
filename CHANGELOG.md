@@ -7,10 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.1.0]
+## [2.1.3]
 
 ### Added
 
+- hpv_libvirt_client
+  - added virt-manager package
 - all: OracleLinux9 support
 
 ## [2.0.0]
@@ -39,8 +41,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.4]
 
-[Unreleased]: https://github.com/serdigital64/aplatform64/compare/2.1.0...HEAD
-[2.1.0]: https://github.com/serdigital64/aplatform64/compare/2.0.0...2.1.0
+[Unreleased]: https://github.com/serdigital64/aplatform64/compare/2.1.3...HEAD
+[2.1.3]: https://github.com/serdigital64/aplatform64/compare/2.0.0...2.1.3
 [2.0.0]: https://github.com/serdigital64/aplatform64/compare/1.3.0...2.0.0
 [1.3.0]: https://github.com/serdigital64/aplatform64/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/serdigital64/aplatform64/compare/1.1.0...1.2.0
